@@ -1,0 +1,117 @@
+body{
+font-family: "PT Sans Caption", sans-serif;
+background-color: #f7ecde;
+}.bookmark h1{
+font-size: 50px;
+font-family: "Pacifico", cursive;
+color: #352e28;
+
+}
+.bookmark{
+	position: relative !important;
+}
+.bookmark h1::after {
+content: "";
+position: absolute;
+width: 20%;
+height: 25%;
+left: 526px;
+bottom: 10px;
+background-color: #fec260;
+transition: height 350ms;
+z-index: -1;
+}
+.bookmark h1:hover::after {
+height: 50%;
+}
+::selection {
+	background-color: #fec260;
+	color: #352e28;
+}
+.bord{
+	border-style: dotted;
+	border-bottom: 2px;
+	color: #352e28;
+	
+	margin-top: 150px;
+	margin: auto;
+}
+.content h2{
+font-family: "Righteous", cursive;
+font-size: 25px;
+margin-top: 0;
+margin-bottom: .5rem;
+font-weight: 500;
+line-height: 1.2;
+background-image: linear-gradient(to right, #3ca55c, #b5ac49);
+-webkit-text-fill-color: transparent ;
+-webkit-background-clip: text;
+}
+.icon{
+	color: linear-gradient(to right, #3ca55c, #b5ac49);
+}
+.btn{
+	color:white;
+	background-color:#d1512d; 
+	border-color: #d1512d;
+	border-radius: 9px;
+	width: 150px;
+	height: 40px;
+	transition:all 0.5s;
+}
+.btn:hover{
+background-color: #a03315;;
+border-color: #a03315;
+color: white;
+}
+.btnn{
+	color:white;
+	background-color:#eb1d36;
+	width: 100px;
+	border-color: transparent;
+	border-radius: 4px;
+	transition: all 0.5s;
+	text-decoration: none;
+}
+.btnn:hover{
+	background-color:#d30820;
+}
+.btnnn{
+color: white;
+background-color: #9eb23b;
+width: 100px;
+border-color: transparent;
+border-radius: 4px;
+transition: all 0.5s;
+text-decoration: none;
+
+}
+.btnnn:hover{
+	background-color: #8a9e23;
+}
+.btnnnn{
+	color: white;
+		background-color: #dfeb5f;
+		width: 100px;
+		border-color: transparent;
+		border-radius: 4px;
+		text-decoration: none;
+}
+.bbn{
+background-color: #dfeb5f;
+border-color: transparent;
+display: flex ;
+justify-content: center;
+}
+input:focus{
+color: #212529;
+	background-color: #fff !important;
+	border-color: #d99c39 !important;
+	outline: 0;
+	box-shadow: 0 0 0 0.25rem #fec26055 !important;
+}
+.btn-close{
+	position: absolute;
+	right: 35px;
+	top:12px;
+}
